@@ -1,0 +1,211 @@
+﻿Diagnose log at 2022-10-25T07:35:21Z
+
+Executable: /usr/local/share/gcm-core/git-credential-manager-core
+Version: 2.0.785+6074e4e3d3
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Linux HAL9001 5.15.0-52-generic #58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+Reading environment variables... OK
+ Variables:
+XCURSOR_SIZE=24
+LANG=en_US.UTF-8
+XDG_SESSION_ID=3
+WINDOWID=60817415
+LC_ADDRESS=fr_FR.UTF-8
+SHELL=/bin/bash
+PKG_CONFIG_PATH=/home/absobel/.opam/default/lib/pkgconfig:
+OPAM_SWITCH_PREFIX=/home/absobel/.opam/default
+GTK3_MODULES=xapp-gtk3-module
+KONSOLE_VERSION=211203
+LESSOPEN=| /usr/bin/lesspipe %s
+SSH_AGENT_PID=1835
+PAM_KWALLET5_LOGIN=/run/user/1000/kwallet5.socket
+LC_NAME=fr_FR.UTF-8
+LC_TIME=fr_FR.UTF-8
+LC_PAPER=fr_FR.UTF-8
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/absobel/.gtkrc:/home/absobel/.config/gtkrc
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_CURRENT_DESKTOP=KDE
+GTK_IM_MODULE=fcitx
+XDG_DATA_DIRS=/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+KONSOLE_DBUS_SESSION=/Sessions/1
+TERM=xterm-256color
+LANGUAGE=
+QT_AUTO_SCREEN_SCALE_FACTOR=0
+USER=absobel
+XAUTHORITY=/home/absobel/.Xauthority
+LC_TELEPHONE=fr_FR.UTF-8
+QT_IM_MODULE=fcitx
+COLORTERM=truecolor
+LC_MONETARY=fr_FR.UTF-8
+GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/absobel/.gtkrc-2.0:/home/absobel/.config/gtkrc-2.0
+XDG_SESSION_CLASS=user
+XCURSOR_THEME=breeze_cursors
+OLDPWD=/home/absobel/Desktop/N7
+HOME=/home/absobel
+LOGNAME=absobel
+GIT_EXEC_PATH=/usr/lib/git-core
+CAML_LD_LIBRARY_PATH=/home/absobel/.opam/default/lib/stublibs:/home/absobel/.opam/default/lib/ocaml/stublibs:/home/absobel/.opam/default/lib/ocaml
+KONSOLE_DBUS_SERVICE=:1.75
+QT_ACCESSIBILITY=1
+KDE_FULL_SESSION=true
+PATH=/usr/lib/git-core:/home/absobel/.cargo/bin:/home/absobel/.opam/default/bin:/home/absobel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/absobel/.opam/default/bin/:/home/absobel/opt/GNAT/2021/bin:/home/absobel/Desktop/À_garder/AsciiArt/home/absobel/.local/bin/
+XDG_SESSION_TYPE=x11
+SHLVL=1
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+COLORFGBG=15;0
+SYSTEMD_EXEC_PID=1703
+DISPLAY=:0
+KDE_SESSION_VERSION=5
+IM_CONFIG_PHASE=1
+XDG_VTNR=1
+XDG_RUNTIME_DIR=/run/user/1000
+LC_IDENTIFICATION=fr_FR.UTF-8
+XMODIFIERS=@im=fcitx
+XDG_SESSION_DESKTOP=KDE
+_=/usr/bin/git
+GTK_MODULES=gail:atk-bridge
+KDE_APPLICATIONS_AS_SCOPE=1
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+PWD=/home/absobel/Desktop/AyoubCanon.github.io
+SESSION_MANAGER=local/HAL9001:@/tmp/.ICE-unix/2019,unix/HAL9001:/tmp/.ICE-unix/2019
+LC_NUMERIC=fr_FR.UTF-8
+SHELL_SESSION_ID=3ba54dbff4fa4a0fbf1cac28cdd8abcc
+PROFILEHOME=
+OCAML_TOPLEVEL_PATH=/home/absobel/.opam/default/lib/toplevel
+CLUTTER_IM_MODULE=fcitx
+XDG_SEAT=seat0
+MANPATH=:/home/absobel/.opam/default/man
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=plasma
+SSH_AUTH_SOCK=/tmp/ssh-XXXXXXRVUBGQ/agent.1769
+LC_MEASUREMENT=fr_FR.UTF-8
+XDG_CONFIG_DIRS=/home/absobel/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg
+KDE_SESSION_UID=1000
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/bb9a41099b0c74b5acd5a235'... OK
+Reading from temporary file '/tmp/bb9a41099b0c74b5acd5a235'... OK
+Deleting temporary file '/tmp/bb9a41099b0c74b5acd5a235'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/absobel
+UserDataDirectoryPath: /home/absobel/.gcm
+GetCurrentDirectory(): /home/absobel/Desktop/AyoubCanon.github.io
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:44315/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+Testing with IHttpClientFactory created HTTP client...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:45145/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.34.1'
+Locating current repository... OK
+Git repository at '/home/absobel/Desktop/AyoubCanon.github.io/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:/home/absobel/.gitconfig	user.email=imkonnu@gmail.com
+file:/home/absobel/.gitconfig	user.name=Absobel
+file:/home/absobel/.gitconfig	credential.helper=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
+file:/home/absobel/.gitconfig	credential.helper=
+file:/home/absobel/.gitconfig	credential.helper=/usr/local/share/gcm-core/git-credential-manager-core
+file:/home/absobel/.gitconfig	credential.credentialstore=gpg
+file:/home/absobel/.gitconfig	credential.helper=cache
+file:/home/absobel/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:/home/absobel/.gitconfig	credential.https://git.inpt.fr.provider=generic
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/AyoubCanon/AyoubCanon.github.io.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.master.remote=origin
+file:.git/config	branch.master.merge=refs/heads/master
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/absobel/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/absobel/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
