@@ -1,7 +1,16 @@
 # main links links
 main:
-  - title: "CAM"
-    url: /cam/
+  - title: "Engineering course"
+    url: /engineering/
 
-  - title: "CV"
-    url: /cv/
+  - title: "International Mobility"
+    url: /international/
+  
+  - title: "Sustainability & Civic Engagement"
+    url: /civic/
+  
+  - title: "Sports & other activity"
+    url: /sports/
+
+  - title: "Career Development"
+    url: /career/

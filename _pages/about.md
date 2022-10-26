@@ -8,4 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am Ayoub Canon, a future engineer that is currently studying Computer Science at ENSEEIHT.
+
+Video Presentation :
+===
+...
