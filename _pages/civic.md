@@ -5,7 +5,6 @@ permalink: /civic/
 author_profile: true
 ---
 
-Sullitest
-===
+## Sullitest
 
 ![Sullitest](/images/sullitest.png "Sullitest")
